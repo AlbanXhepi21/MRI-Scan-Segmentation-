@@ -1,15 +1,5 @@
-# https://youtu.be/oB35sV1npVI
+
 """
-Use this code to get your BRATS 2020 dataset ready for semantic segmentation. 
-Code can be divided into a few parts....
-
-#Combine 
-#Changing mask pixel values (labels) from 4 to 3 (as the original labels are 0, 1, 2, 4)
-#Visualize
-
-
-https://pypi.org/project/nibabel/
-
 All BraTS multimodal scans are available as NIfTI files (.nii.gz) -> commonly used medical imaging format to store brain imagin data obtained using MRI and describe different MRI settings
 
 T1: T1-weighted, native image, sagittal or axial 2D acquisitions, with 1–6 mm slice thickness.

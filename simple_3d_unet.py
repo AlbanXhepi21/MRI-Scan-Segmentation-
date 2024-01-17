@@ -1,6 +1,5 @@
-# https://youtu.be/ScdCQqLtnis
+
 """
-@author: Sreenivas Bhattiprolu
 
 Converted my standard 2D Unet to 3D. 
 
