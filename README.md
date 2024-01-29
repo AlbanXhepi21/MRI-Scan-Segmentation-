@@ -11,8 +11,6 @@ Welcome to the BraTs2020 MRI Scan Segmentation project! This project focuses on 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Directory Structure](#directory-structure)
-- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ## Prerequisites
@@ -28,26 +26,26 @@ Before running the project, make sure you have the following dependencies instal
 1. Clone the repository:
 
    ```bash
-   [git clone https://github.com/your-username/brats2020-mri-segmentation.git](https://github.com/AlbanXhepi21/MRI-Scan-Segmentation-.git)
-   cd brats2020-mri-segmentation] ```
+   git clone https://github.com/AlbanXhepi21/MRI-Scan-Segmentation-.git
+   cd brats2020-mri-segmentation] 
 
 2. Install the required dependencies:
    ``bash
-      pip install -r requirements.txt ```
+      pip install -r requirements.txt 
 ## Usage
 1. Download the BraTs2020 dataset from Kaggle.
 2. Prepare your BraTs2020 dataset and organize it appropriately by running this script:
     ```bash
-      python brats2020_get_ready.py ```
+      python brats2020_get_ready.py 
 3. Train the model and make the segmentation by running this script:
    ```bash
-      python train_brats2020_V5.0.py ```
+      python train_brats2020_V5.0.py
    
 4.Once the segmentation is complete, you can run this script to generate the GIF of the 3d segmentation:
    ```bash
-      python generateGif.py ```
+      python generateGif.py
 5. After generating the GIF, calculate the tumor volume:
    ```bash
-      python find_volume.py ```
+      python find_volume.py
 
    
