@@ -36,14 +36,16 @@ Before running the project, make sure you have the following dependencies instal
 1. Download the BraTs2020 dataset from Kaggle.
 2. Prepare your BraTs2020 dataset and organize it appropriately by running this script:
     ```bash
-      python brats2020_get_ready.py 
+      python brats2020_get_ready.py
+    
 3. Train the model and make the segmentation by running this script:
    ```bash
       python train_brats2020_V5.0.py
    
-4.Once the segmentation is complete, you can run this script to generate the GIF of the 3d segmentation:
+4. Once the segmentation is complete, you can run this script to generate the GIF of the 3d segmentation:
    ```bash
       python generateGif.py
+   
 5. After generating the GIF, calculate the tumor volume:
    ```bash
       python find_volume.py
