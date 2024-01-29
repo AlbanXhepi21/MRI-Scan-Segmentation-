@@ -19,7 +19,7 @@ Before running the project, make sure you have the following dependencies instal
 
 - Python 3.7
 - Required Python packages (you can install them using `pip install -r requirements.txt`)
-- TensorFlow (or any other backend supported by Keras)
+- TensorFlow
 
 ## Installation
 
